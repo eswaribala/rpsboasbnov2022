@@ -13,16 +13,16 @@
 <context:component-scan base-package="com.boa.bank.*">
 </context:component-scan>
 
-<!-- <bean id="customer" class="com.boa.bank.models.AnnotatedCustomer">
+<bean id="customer" class="com.boa.bank.models.AnnotatedCustomer">
 
-</bean> -->
+</bean>
 
-<!-- <bean id="address1" class="com.boa.bank.models.Address">
+<bean id="address1" class="com.boa.bank.models.Address">
 
 </bean>
 <bean id="address2" class="com.boa.bank.models.Address">
 
-</bean> -->
+</bean>
 <!-- <bean id="fullName" class="com.boa.bank.models.FullName">
 
 </bean> -->

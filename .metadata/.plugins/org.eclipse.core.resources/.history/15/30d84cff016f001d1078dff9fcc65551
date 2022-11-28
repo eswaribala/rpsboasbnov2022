@@ -9,14 +9,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Component
+public class Address {
 
-public class Customer {
-	
-	private long accountNo;
-	private String name;
-	private String email;
-	private long contactNo;
-	private String address;
-	private String password;
-
+	private String doorNo;
+	private String streetName;
+	private String city;
+	private long pincode;
 }

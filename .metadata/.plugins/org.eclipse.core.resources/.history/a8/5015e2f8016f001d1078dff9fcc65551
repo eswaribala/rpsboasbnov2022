@@ -12,7 +12,7 @@ import lombok.ToString;
 
 @ToString
 @Getter
-@Component("customer")
+@Component
 public class AnnotatedCustomer {
 	
 	private long accountNo;
