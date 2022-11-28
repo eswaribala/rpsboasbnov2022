@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="customer" class="com.boa.bank.models.Customer">
+<!-- DI -->
+<property name="accountNo" value="349596349"></property>
+<property name="name" value="Parameswari"></property>
+<property name="email" value="param@gmail.com"></property>
+<property name="contactNo" value="349596349"></property>
+<property name="password" value="Test@123"></property>
+<property name="address" value="Chennai"></property>
+</bean>
+
+<bean id="account" class="com.boa.bank.models.Account">
+<constructor-arg index="0" value="50000">
+
+</constructor-arg>
+<constructor-arg index="1" ref="date"></constructor-arg>
+
+
+</bean>
+
+<bean id="date" class="java.util.Date">
+<constructor-arg index="0" value="102"></constructor-arg>
+<constructor-arg index="1" value="9"></constructor-arg>
+<constructor-arg index="2" value="25"></constructor-arg>
+</bean>
+
+</beans>
