@@ -5,7 +5,6 @@ import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
-import com.boa.bank.models.Account;
 import com.boa.bank.models.Customer;
 
 public class BankApp {
@@ -21,8 +20,7 @@ public class BankApp {
         System.out.println(customer);
         
         //account object
-        Account account=(Account) beanFactory.getBean("account");
-        System.out.println(account);
+        Account account=beanFactory.getBean("account");
 		
 	}
 

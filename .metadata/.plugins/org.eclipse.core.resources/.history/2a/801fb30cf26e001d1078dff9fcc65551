@@ -23,7 +23,7 @@
 </bean>
 
 <bean id="date" class="java.util.Date">
-<constructor-arg index="0" value="102"></constructor-arg>
+<constructor-arg index="0" value="2002"></constructor-arg>
 <constructor-arg index="1" value="9"></constructor-arg>
 <constructor-arg index="2" value="25"></constructor-arg>
 </bean>

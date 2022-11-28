@@ -13,5 +13,19 @@
 <property name="address" value="Chennai"></property>
 </bean>
 
+<bean id="account" class="com.boa.bank.models.Account">
+<constructor-arg index="0" value="50000">
+
+</constructor-arg>
+<constructor-arg index="1" ref="date"></constructor-arg>
+
+
+</bean>
+
+<bean id="date" class="java.util.Date">
+<constructor-arg index="0" value="102"></constructor-arg>
+<constructor-arg index="1" value="9"></constructor-arg>
+<constructor-arg index="2" value="25"></constructor-arg>
+</bean>
 
 </beans>

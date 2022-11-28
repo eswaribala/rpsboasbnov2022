@@ -1,0 +1,10 @@
+package com.boa.bank.models;
+
+import java.util.Date;
+@Data
+public class Account {
+	
+	private long runningTotal;
+	private Date openDate;
+
+}
