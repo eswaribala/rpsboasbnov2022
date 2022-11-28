@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+F:\boasbnov2022\.metadata\.plugins\org.eclipse.jdt.core
+3743312359.index
+2726785889.index
