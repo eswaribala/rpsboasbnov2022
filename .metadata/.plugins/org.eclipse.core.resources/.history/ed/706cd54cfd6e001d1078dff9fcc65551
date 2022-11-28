@@ -1,0 +1,9 @@
+package com.boa.bank.models;
+@Data
+public class Address {
+
+	private String doorNo;
+	private String streetName;
+	private String city;
+	private long pincode;
+}
