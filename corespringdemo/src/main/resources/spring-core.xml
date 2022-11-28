@@ -4,7 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="customer" class="com.boa.bank.models.Customer">
-
+<!-- DI -->
+<property name="accountNo" value="349596349"></property>
+<property name="name" value="Parameswari"></property>
+<property name="email" value="param@gmail.com"></property>
+<property name="contactNo" value="349596349"></property>
+<property name="password" value="Test@123"></property>
+<property name="address" value="Chennai"></property>
 </bean>
 
 
