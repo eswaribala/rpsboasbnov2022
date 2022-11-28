@@ -1,0 +1,14 @@
+package com.boa.bank.utility;
+
+public class BankApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Customer Object
+		Resource resource=new ClassPathResource("spring-core.xml");
+        BeanFactory beanFactory=new XmlBeanFactory(resource);
+		
+	}
+
+}

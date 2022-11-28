@@ -1,0 +1,12 @@
+package com.boa.bank.models;
+
+public class Customer {
+	
+	private long accountNo;
+	private String name;
+	private String email;
+	private long contactNumber;
+	private String address;
+	private String password;
+
+}
