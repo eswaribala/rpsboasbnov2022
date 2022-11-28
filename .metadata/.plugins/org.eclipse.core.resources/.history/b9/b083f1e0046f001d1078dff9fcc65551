@@ -33,9 +33,9 @@ public class BankApp {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext(
                 "spring-application-context.xml");
 		
-		//AnnotatedCustomer customer =new AnnotatedCustomer(null);
-		 AnnotatedCustomer customer=(AnnotatedCustomer) ctx.getBean("customer");
-		  System.out.println(customer.createTransaction().getDot());
+		AnnotatedCustomer customer =new AnnotatedCustomer(null);
+		 //AnnotatedCustomer customer=(AnnotatedCustomer) ctx.getBean("customer");
+		 // System.out.println(customer);
 	}
 
 }

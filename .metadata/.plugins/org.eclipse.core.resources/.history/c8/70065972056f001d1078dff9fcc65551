@@ -35,7 +35,7 @@ public class BankApp {
 		
 		//AnnotatedCustomer customer =new AnnotatedCustomer(null);
 		 AnnotatedCustomer customer=(AnnotatedCustomer) ctx.getBean("customer");
-		  System.out.println(customer.createTransaction().getDot());
+		  System.out.println(customer);
 	}
 
 }

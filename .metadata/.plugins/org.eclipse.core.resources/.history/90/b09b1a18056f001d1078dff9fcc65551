@@ -1,0 +1,5 @@
+package com.boa.bank.models;
+
+public class Transaction {
+
+}

@@ -1,0 +1,9 @@
+package com.boa.bank.models;
+
+public class Transaction {
+
+	private long amount;
+	private String sender;
+	private String receiver;
+	private LocalDateTime dot;
+}
