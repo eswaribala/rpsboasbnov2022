@@ -20,12 +20,16 @@ public class AnnotatedCustomer {
 	private String password;
 	
 	@Autowired
-	public AnnotatedCustomer(FullName name, Address address) {		
-	
+	public AnnotatedCustomer(long accountNo, FullName name, 
+			String email, long contactNo, Address address,
+			String password) {
+		super();
+		this.accountNo = accountNo;
 		this.name = name;
-		
+		this.email = email;
+		this.contactNo = contactNo;
 		this.address = address;
-
+		this.password = password;
 	}
 	
 	

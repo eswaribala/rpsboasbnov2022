@@ -14,6 +14,7 @@
 </context:component-scan>
 
 <bean id="customer" class="com.boa.bank.models.AnnotatedCustomer">
+<constructor-arg index="0" value="43750843"></constructor-arg>
 
 </bean>
 

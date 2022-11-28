@@ -8,7 +8,6 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 import com.boa.bank.models.Account;
-import com.boa.bank.models.AnnotatedCustomer;
 import com.boa.bank.models.Customer;
 
 public class BankApp {
@@ -33,7 +32,7 @@ public class BankApp {
 		ApplicationContext ctx=new ClassPathXmlApplicationContext(
                 "spring-application-context.xml");
 		
-		 AnnotatedCustomer customer=(AnnotatedCustomer) ctx.getBean("customer");
+		 AnnotatedCustomer customer=(Customer) ctx.getBean("customer");
 		  System.out.println(customer);
 	}
 

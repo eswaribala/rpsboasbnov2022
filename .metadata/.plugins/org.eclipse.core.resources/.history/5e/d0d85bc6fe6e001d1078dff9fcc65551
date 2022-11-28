@@ -20,7 +20,8 @@ public class AnnotatedCustomer {
 	private String password;
 	
 	@Autowired
-	public AnnotatedCustomer(FullName name, Address address) {		
+	public AnnotatedCustomer(FullName name, Adress address) {
+		
 	
 		this.name = name;
 		
