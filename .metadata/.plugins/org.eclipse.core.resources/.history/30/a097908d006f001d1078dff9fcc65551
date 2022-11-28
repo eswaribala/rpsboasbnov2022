@@ -17,8 +17,8 @@ public class AnnotatedCustomer {
 	private FullName name;
 	private String email;
 	private long contactNo;
-	//@Autowired
-	//@Qualifier("address1")
+	@Autowired
+	@Qualifier("address1")
 	private Address address;
 	private String password;
 	
@@ -29,11 +29,6 @@ public class AnnotatedCustomer {
 	
 		this.name = name;	
 
-	}
-	@Autowired
-	@Qualifier("address1")
-	public void setAddress(Address address) {
-		this.address = address;
 	}
 	
 	

@@ -30,8 +30,7 @@ public class AnnotatedCustomer {
 		this.name = name;	
 
 	}
-	@Autowired
-	@Qualifier("address1")
+
 	public void setAddress(Address address) {
 		this.address = address;
 	}
