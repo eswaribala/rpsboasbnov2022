@@ -17,12 +17,7 @@
 
 </bean>
 
-<bean id="address1" class="com.boa.bank.models.Address">
 
-</bean>
-<bean id="address2" class="com.boa.bank.models.Address">
-
-</bean>
 <bean id="fullName" class="com.boa.bank.models.FullName">
 
 </bean>

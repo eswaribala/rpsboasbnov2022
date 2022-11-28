@@ -25,9 +25,11 @@ public class AnnotatedCustomer {
 	@Autowired
 	//not permitted at constructor level
    // @Qualifier("address1")
-	public AnnotatedCustomer(FullName name) {	
+	public AnnotatedCustomer(FullName name) {		
 	
-		this.name = name;	
+		this.name = name;
+		
+		this.address = address;
 
 	}
 	
