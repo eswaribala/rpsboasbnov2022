@@ -1,6 +1,5 @@
 package com.boa.customerapi.models;
 
-import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,7 +13,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @Entity
-@Table(name="Individual")
+@Table(name="Corporate")
 @SuperBuilder
 @Data
 @AllArgsConstructor
