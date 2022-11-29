@@ -32,7 +32,7 @@ public class CorporateController {
     	Corporate corporateObj=this.corporateService.addCorporate(Corporate);
     	
     	if(corporateObj!=null)
-    		return ResponseEntity.status(HttpStatus.OK).body(new ResponseWrapper<Corporate>(corporateObj));
+    		return ResponseEntity.status(HttpStatus.CREATED).body(new ResponseWrapper<Corporate>(corporateObj));
     	else
     		return ResponseEntity.status(HttpStatus.BAD_REQUEST)
     				.body(new ResponseWrapper("Customer Not created due to incorrect values"));
