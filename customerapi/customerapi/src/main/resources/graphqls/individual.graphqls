@@ -38,6 +38,7 @@ type FullName {
 type Query {
 	findAllIndividuals:[Individual]
 	findIndividual(customerId: ID):Individual
+	findIndividualByFirstName(firstName: String):[Individual]
 }
 
 

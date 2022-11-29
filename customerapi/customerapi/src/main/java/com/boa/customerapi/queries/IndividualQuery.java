@@ -23,5 +23,8 @@ public class IndividualQuery implements GraphQLQueryResolver{
 		return this.individualService.getIndividualById(customerId);
 	}
 	
+	public List<Individual> findIndividualByFirstName(String firstName){
+		return this.individualService.getIndividualByFName(firstName);
+	}
 	
 }
