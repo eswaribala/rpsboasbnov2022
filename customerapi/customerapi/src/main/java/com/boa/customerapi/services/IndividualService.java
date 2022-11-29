@@ -30,6 +30,13 @@ public class IndividualService implements IndividualFacade {
 		// TODO Auto-generated method stub
 		return this.individualRepository.findById(customerId).orElse(null);
 	}
+	
+
+	@Override
+	public List<Individual> getIndividualByFName(String firstName) {
+		// TODO Auto-generated method stub
+		return this.individualRepository.findByFirstName(firstName);
+	}
 
 	@Override
 	public Individual updateIndividual(long customerId, long contactNo, String email, String password) {

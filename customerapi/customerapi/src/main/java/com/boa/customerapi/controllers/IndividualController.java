@@ -56,7 +56,17 @@ public class IndividualController {
      
     }
     
-    
+    @GetMapping({"/v1.0/{firstName}"})
+    public ResponseEntity<?> findIndividualByFirstName(@PathVariable("firstName") String firstName){
+       List<Individual> individuals=this.individualService.getIndividualByFName(firstName);
+    	
+    	if(individuals.size()>0)
+    		return ResponseEntity.status(HttpStatus.OK).body(individuals);
+    	else
+    		return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+    				.body(new ResponseWrapper("Customer Not found"));
+     
+    }
     
     @PutMapping({"/v1.0/{customerId}"})
     public ResponseEntity<ResponseWrapper> updateIndividualById(@PathVariable("customerId") long customerId,

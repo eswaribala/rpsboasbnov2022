@@ -11,6 +11,6 @@ public interface IndividualFacade {
 	Individual getIndividualById(long customerId);
 	Individual updateIndividual(long customerId, long contactNo, String email, String password);
 	boolean deleteIndividual(long customerId);
-	
+	List<Individual> getIndividualByFName(String firstName);
 
 }
