@@ -56,7 +56,7 @@ public class IndividualController {
      
     }
     
-    @GetMapping({"/v1.0/{firstName}"})
+    @GetMapping({"/v1.0/name/{firstName}"})
     public ResponseEntity<?> findIndividualByFirstName(@PathVariable("firstName") String firstName){
        List<Individual> individuals=this.individualService.getIndividualByFName(firstName);
     	
