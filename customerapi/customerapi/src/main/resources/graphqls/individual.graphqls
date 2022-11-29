@@ -9,7 +9,7 @@ interface Customer  {
 	name: FullName
 	email: String
 	password: String
-	contactNo: Integer
+	contactNo: Int
 }
 
 type Individual implements Customer {
@@ -17,7 +17,7 @@ type Individual implements Customer {
 	name: FullName
 	email: String
 	password: String
-	contactNo: Integer
+	contactNo: Int
 	dob: String
 	gender:String
 }
