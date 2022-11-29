@@ -51,12 +51,15 @@ public class IndividualService implements IndividualFacade {
 
 	@Override
 	public boolean deleteIndividual(long customerId) {
-		boolean status=true;
+		boolean status=false;
 		// TODO Auto-generated method stub
-		this.individualRepository.deleteById(customerId);
+		
 		  Individual individual= this.getIndividualById(customerId);
 		  if(individual !=null)
-			  status=false;
+		  {
+			  this.individualRepository.deleteById(customerId);
+			  status=true;
+		  }
 		  return status;
 	}
 
