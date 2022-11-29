@@ -10,6 +10,7 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -26,6 +27,7 @@ public class Customer {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="CustomerId")
+    @ApiModelProperty(hidden = true)
 	private long customerId;
     @Embedded
     private FullName name;
