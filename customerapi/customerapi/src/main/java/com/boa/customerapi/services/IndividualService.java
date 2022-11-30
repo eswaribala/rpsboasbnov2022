@@ -3,13 +3,22 @@ package com.boa.customerapi.services;
 import java.util.List;
 
 import javax.persistence.EntityManager;
+import javax.persistence.criteria.CriteriaQuery;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.boa.customerapi.facades.IndividualFacade;
 import com.boa.customerapi.models.Individual;
 import com.boa.customerapi.repositories.IndividualRepository;
+import com.github.tennaito.rsql.jpa.JpaCriteriaQueryVisitor;
+
+import cz.jirutka.rsql.parser.RSQLParser;
+import cz.jirutka.rsql.parser.ast.Node;
+import cz.jirutka.rsql.parser.ast.RSQLVisitor;
 
 @Service
 public class IndividualService implements IndividualFacade {
@@ -72,6 +81,24 @@ public class IndividualService implements IndividualFacade {
 			  status=true;
 		  }
 		  return status;
+	}
+	
+	
+	
+	public Page<Individual> conditionalQuery(String condition, Pageable pageable){
+        // 1.Create the JPA Visitor
+        RSQLVisitor<CriteriaQuery<Individual>, EntityManager> visitor =
+        		new JpaCriteriaQueryVisitor<Individual>();
+        // 2.Parse a RSQL into a Node
+        Node rootNode = new RSQLParser().parse(condition);
+        // 3.Create CriteriaQuery
+        CriteriaQuery<Individual> criteriaQuery = rootNode.accept(visitor, entityManager);
+        List<Individual> total = entityManager.createQuery(criteriaQuery).getResultList();
+        List<Individual> resultList = entityManager.createQuery(criteriaQuery)
+                .setFirstResult((int) pageable.getOffset()).setMaxResults(pageable.getPageSize()).getResultList();
+ 
+        return new PageImpl<>(resultList,pageable, total.size());
+
 	}
 
 }

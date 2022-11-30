@@ -2358,3 +2358,11 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-11-30 10:51:23,895 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-11-30 10:51:23,897 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-30 10:51:23,897 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapi\customerapi\src\test\resources
+2022-11-30 10:54:24,486 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:54:24,487 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-30 10:54:24,490 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-30 10:54:24,494 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:54:24,495 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapi\customerapi\src\test\resources
+2022-11-30 10:54:49,005 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-11-30 10:54:58,828 [Worker-67: Launching customerapi (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\customerapi\customerapi
+2022-11-30 10:54:58,830 [Worker-67: Launching customerapi (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
