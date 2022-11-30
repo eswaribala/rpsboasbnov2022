@@ -2,6 +2,8 @@ package com.boa.customerapi.services;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +15,8 @@ import com.boa.customerapi.repositories.IndividualRepository;
 public class IndividualService implements IndividualFacade {
     @Autowired
 	private IndividualRepository individualRepository;
+    @Autowired
+    private EntityManager entityManager;
 	@Override
 	public Individual addIndividual(Individual individual) {
 		// TODO Auto-generated method stub
