@@ -5,6 +5,8 @@ import java.util.List;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
@@ -24,12 +26,17 @@ import com.boa.customerapi.dto.ResponseWrapper;
 import com.boa.customerapi.models.Individual;
 import com.boa.customerapi.services.IndividualService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("/individuals")
+@RefreshScope
+@Slf4j
 public class IndividualController {
     @Autowired
 	private IndividualService individualService;
-	
+    @Value("${message}")
+	private String message;
     @PostMapping({"/v1.0/"})
     @CrossOrigin("*")
     public ResponseEntity<ResponseWrapper> addIndividual(@Valid @RequestBody Individual individual){
@@ -47,6 +54,7 @@ public class IndividualController {
     @GetMapping({"/v1.0/"})
     @CrossOrigin("*")
     public List<Individual> findAllIndividuals(){
+    	log.info(message);
     	return this.individualService.getAllIndividuals();
     }
     
