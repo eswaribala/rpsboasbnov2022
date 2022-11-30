@@ -95,7 +95,8 @@ public class IndividualService implements IndividualFacade {
         CriteriaQuery<Individual> criteriaQuery = rootNode.accept(visitor, entityManager);
         List<Individual> total = entityManager.createQuery(criteriaQuery).getResultList();
         List<Individual> resultList = entityManager.createQuery(criteriaQuery)
-                .setFirstResult((int) pageable.getOffset()).setMaxResults(pageable.getPageSize()).getResultList();
+                .setFirstResult((int) pageable.getOffset())
+                .setMaxResults(pageable.getPageSize()).getResultList();
  
         return new PageImpl<>(resultList,pageable, total.size());
 
