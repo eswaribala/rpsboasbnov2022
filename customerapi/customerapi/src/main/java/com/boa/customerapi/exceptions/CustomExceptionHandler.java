@@ -49,6 +49,15 @@ public class CustomExceptionHandler extends ResponseEntityExceptionHandler
 		ErrorResponse error = new ErrorResponse(LocalDateTime.now(),BAD_REQUEST, details);
 		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
 	}
+	@ExceptionHandler(Exception.class)
+	@ResponseBody
+	public final ResponseEntity<ErrorResponse> handleInvalidException
+						(MissingHeaderInfoException ex, WebRequest request) {
+		List<String> details = new ArrayList<>();
+		details.add(ex.getLocalizedMessage());
+		ErrorResponse error = new ErrorResponse(LocalDateTime.now(),BAD_REQUEST, details);
+		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+	}
 	
 	@ExceptionHandler(ConstraintViolationException.class)
 	@ResponseBody
