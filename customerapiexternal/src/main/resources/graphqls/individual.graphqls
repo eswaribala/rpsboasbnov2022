@@ -1,0 +1,44 @@
+schema {
+    query: Query  
+  
+}
+
+
+interface Customer  {
+    customerId: ID!
+	name: FullName
+	email: String
+	password: String
+	contactNo: Long
+}
+
+type Individual implements Customer {
+    customerId: ID!
+	name: FullName
+	email: String
+	password: String
+	contactNo: Long
+	dob: String
+	gender:String
+}
+
+
+
+
+type FullName {
+
+	firstName: String
+	lastName: String
+	middleName: String
+
+}
+
+
+
+type Query {
+	findAllIndividuals:[Individual]
+	findIndividual(customerId: ID):Individual
+	findIndividualByFirstName(firstName: String):[Individual]
+}
+
+
