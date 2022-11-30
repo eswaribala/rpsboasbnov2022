@@ -2319,3 +2319,13 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-11-30 10:09:43,669 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2022-11-30 10:09:53,459 [Worker-36: Launching customerapi (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\customerapi\customerapi
 2022-11-30 10:09:53,469 [Worker-36: Launching customerapi (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2022-11-30 10:15:53,841 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:15:53,843 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-30 10:15:53,847 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-30 10:15:53,850 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:15:53,850 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapi\customerapi\src\test\resources
+2022-11-30 10:15:54,896 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:15:54,897 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-30 10:15:54,900 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-30 10:15:54,903 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-30 10:15:54,903 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapi\customerapi\src\test\resources
