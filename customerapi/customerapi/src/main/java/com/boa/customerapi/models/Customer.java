@@ -9,6 +9,9 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
+import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -30,12 +33,15 @@ public class Customer {
     @ApiModelProperty(hidden = true)
 	private long customerId;
     @Embedded
+    @Valid
     private FullName name;
     @Column(name="ContactNo")
     private long contactNo;
     @Column(name="Email",nullable = false,length = 100)
+    @NotBlank(message = "Email is mandatory")
 	private String email;
     @Column(name="Password",nullable = false,length = 10)
+    @Size(min=2, message="Password should have atleast 2 characters")
 	private String password;
 	
 }
