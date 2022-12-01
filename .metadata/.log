@@ -2158,3 +2158,69 @@ java.io.FileNotFoundException: F:\boasbnov2022\.metadata\.plugins\org.eclipse.ws
 	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
 	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
 	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:27.392
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:29.936
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.453
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.458
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.465
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.471
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.478
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.486
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.492
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.499
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.505
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.513
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.518
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.523
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.529
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.535
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.540
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.547
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.553
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.559
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.565
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-12-01 12:03:31.572
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/apigatewaydemo

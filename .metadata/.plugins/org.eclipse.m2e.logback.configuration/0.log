@@ -3121,3 +3121,33 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-12-01 11:14:46,242 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-12-01 11:14:46,245 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-01 11:14:46,245 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\eurekaserverdemo\eurekaserverdemo\src\test\resources
+2022-12-01 11:15:17,696 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-12-01 11:15:27,088 [Worker-68: Launching eurekaserverdemo] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\eurekaserverdemo\eurekaserverdemo
+2022-12-01 11:15:27,088 [Worker-68: Launching eurekaserverdemo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2022-12-01 11:32:46,909 [Worker-72: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boa:customerapiexternal:0.0.1-SNAPSHOT @ F:\boasbnov2022\customerapiexternal\pom.xml.
+2022-12-01 11:32:50,434 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:32:50,434 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-01 11:32:50,434 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-12-01 11:32:50,443 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:32:50,444 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapiexternal\src\test\resources
+2022-12-01 11:32:54,582 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:32:54,584 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 11:32:54,740 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-12-01 11:32:54,757 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:32:54,757 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapiexternal\src\test\resources
+2022-12-01 11:35:19,810 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-12-01 11:35:35,799 [Worker-52: Launching customerapiexternal (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\customerapiexternal
+2022-12-01 11:35:35,799 [Worker-52: Launching customerapiexternal (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2022-12-01 11:36:18,807 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.5; built: 2021-06-11T14:18:43.438Z; git: dc21b2d73cafd78a56e8e532cf50863739bd7027; jvm 16.0.2+7-67
+2022-12-01 11:36:18,857 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-12-01 11:36:18,920 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@70a9408e{/help,null,AVAILABLE}
+2022-12-01 11:36:18,968 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@15d6f098{HTTP/1.1, (http/1.1)}{127.0.0.1:64559}
+2022-12-01 11:36:18,974 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@40efd900{STARTING}[10.0.5,sto=0] @7763804ms
+2022-12-01 11:36:23,650 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:36:23,652 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 11:36:23,663 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-12-01 11:36:23,710 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 11:36:23,710 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\customerapiexternal\src\test\resources
+2022-12-01 11:36:30,070 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-12-01 11:36:41,294 [Worker-76: Launching customerapiexternal (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\customerapiexternal
+2022-12-01 11:36:41,295 [Worker-76: Launching customerapiexternal (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
