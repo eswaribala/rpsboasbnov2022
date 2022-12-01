@@ -3,7 +3,6 @@ INDEX VERSION 1.131+F:\boasbnov2022\.metadata\.plugins\org.eclipse.jdt.core
 2019999769.index
 2460711570.index
 3302932205.index
-4102677118.index
 1060654380.index
 3887552769.index
 3014317327.index
@@ -30,7 +29,6 @@ INDEX VERSION 1.131+F:\boasbnov2022\.metadata\.plugins\org.eclipse.jdt.core
 732670507.index
 2722781636.index
 3921418702.index
-1801547145.index
 4081616433.index
 788795420.index
 3928050085.index
@@ -45,7 +43,6 @@ INDEX VERSION 1.131+F:\boasbnov2022\.metadata\.plugins\org.eclipse.jdt.core
 2572118744.index
 3638448968.index
 170575941.index
-153524532.index
 1977943022.index
 3087978309.index
 1923368851.index

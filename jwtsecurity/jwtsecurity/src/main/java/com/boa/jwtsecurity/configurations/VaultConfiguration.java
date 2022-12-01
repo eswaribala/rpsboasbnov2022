@@ -13,6 +13,5 @@ import lombok.NoArgsConstructor;
 public class VaultConfiguration {
 
 	private String key;
-	private String username;
-	private String password;
+
 }
