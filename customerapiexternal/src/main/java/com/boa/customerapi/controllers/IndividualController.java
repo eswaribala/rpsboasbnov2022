@@ -29,7 +29,7 @@ import com.boa.customerapi.services.IndividualService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/individuals")
+@RequestMapping(path = "/individuals",produces = "application/json")
 @RefreshScope
 @Slf4j
 public class IndividualController {
