@@ -11,10 +11,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 import org.springframework.stereotype.Component;
 
-import com.virtusa.jwtsecurity.exceptions.JwtTokenMalformedException;
-import com.virtusa.jwtsecurity.exceptions.JwtTokenMissingException;
-import com.virtusa.jwtsecurity.models.Role;
-import com.virtusa.jwtsecurity.models.User;
+import com.boa.jwtsecurity.exceptions.JwtTokenMalformedException;
+import com.boa.jwtsecurity.exceptions.JwtTokenMissingException;
+import com.boa.jwtsecurity.models.Role;
+import com.boa.jwtsecurity.models.User;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
