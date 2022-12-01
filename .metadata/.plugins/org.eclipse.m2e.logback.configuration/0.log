@@ -4010,3 +4010,13 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-12-01 16:14:06,578 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2022-12-01 16:14:19,721 [Worker-159: Launching jwtsecurity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\boasbnov2022\jwtsecurity\jwtsecurity
 2022-12-01 16:14:19,721 [Worker-159: Launching jwtsecurity (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install
+2022-12-01 16:52:08,886 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 16:52:08,888 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 16:52:08,891 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 16:52:08,893 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 16:52:08,893 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\jwtsecurity\jwtsecurity\src\test\resources
+2022-12-01 16:52:59,328 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 16:52:59,329 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 16:52:59,331 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-12-01 16:52:59,333 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-12-01 16:52:59,334 [Worker-177: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\boasbnov2022\jwtsecurity\jwtsecurity\src\test\resources
