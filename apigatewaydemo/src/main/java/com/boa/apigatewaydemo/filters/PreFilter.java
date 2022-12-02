@@ -73,7 +73,7 @@ public class PreFilter  extends ZuulFilter{
         log.info( servletRequest.getRemoteAddr());
         log.info("PreFilter: " + String.format("%s request to %s",  servletRequest.getMethod(), servletRequest.getRequestURL().toString()));
         
-        //http://localhost:8765/api/customers?userName=eswari&userPwd=test@123
+        //http://localhost:8765/api/customers/individuals/v1.0?userName=eswari&userPwd=test@123
         Map<String,List<String>> params=ctx.getRequestQueryParams();
          
         
